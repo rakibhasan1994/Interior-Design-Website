@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interior design</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <!-- Header-area start -->
+    <header class="header-area py-[20px]">
+        <div class="wraper header-wraper flex items-center justify-between">
+            <div class="logo flex items-center justify-between">
+                <img src="https://theme.creativemox.com/pixeluxe/wp-content/uploads/sites/18/2024/02/Logo_pixeluxe.png" alt="Logo">
+                <i class="fa-solid fa-bars"  id="toogle-menu"></i>
+            </div>
+
+             <!-- Desktop-Menu -->
+            <div class="menu">
+                <nav class="flex items-center gap-[25px]">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </nav>
+            </div>
+
+              <!-- mobile-menu -->
+
+        <div class="mobile-menu" id="mobile-menu">
+            <div class="logo-icon flex justify-between items-center">
+                <img src="https://theme.creativemox.com/pixeluxe/wp-content/uploads/sites/18/2024/02/Logo_pixeluxe.png" alt="Logo">
+                <i class="fa-sharp-duotone fa-solid fa-circle-xmark" id="cross-icon"></i>
+            </div>
+            <nav>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">portfolio</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </nav>
+            <div class="mobile-heading flex flex-col gap-[15px]">
+            <h2>CONTACT INFO</h2>
+            <div class="location flex items-center gap-[30px]">
+                <i class="fa-solid fa-location-dot"></i>
+                <h3>MAIN STREET, MELBOURNE, AUSTRALIA</h3>
+            </div>
+            <div class="location flex gap-[30px] items-center">
+                <i class="fa-regular fa-envelope"></i>
+                <h3>INFO@FOODKING.COM</h3>
+            </div>
+            <div class="location flex items-center gap-[30px]">
+                <i class="fa-solid fa-phone"></i>
+                <h3>+11002345909</h3>
+            </div>
+            </div>
+            <a href="#" class="order-now">Order-Now</a>
+            <div class="icon flex gap-[15px]">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                <a href="#"> <i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+        
+            <div class="button">
+                <a href="#" class="btn-primary">GET STARTED</a>
+            </div>
+        </div>
+    </header>
+    <!-- Header-area end -->
+
+    <main>
+        <!-- Hero-area start -->
+         <section class="hero-area">
+            <div class="wraper flex flex-col md:flex-row justify-between items-center gap-6">
+                <div class="hero-left text-center md:text-left">
+                    <h4>WELCOME TO PIXELUXE</h4>
+                    <h1 class="text-[6rem]">Engaging you with Creative Design</h1>
+                   <p class="mb-[20px]">Providing high-quality 3D rendering for various industries such as architecture, interior design, and product visualization</p>
+                   <a href="#" class="btn-primary">DISCOVER MORE</a>
+                 </div>
+                 <div class="hero-right">
+                    <img src="https://tykit.rometheme.pro/toria/wp-content/uploads/sites/141/2023/10/modern-living-room-interior-composition-2022-12-07-04-25-28-utc.jpg" alt="Hero Image">
+                 </div>
+            </div>
+         </section>
+        <!-- Hero-area end -->
+
+        <!-- About-area start -->
+         <section class="about-area py-[50px] md:py-[120px]">
+            <div class="wraper about-wraper flex flex-col-reverse md:flex-row gap-10 items-center">
+                <div class="about-left">
+                    <img src="https://tykit.rometheme.pro/toria/wp-content/uploads/sites/141/2023/10/stylish-living-room-interior-design-2022-12-07-04-28-37-utc.jpg" alt="Image">
+                </div>
+                <div class="about-right">
+                    <h4 class="text-[1.6rem] text-[#5FE38F] font-[700]">Who we are</h4>
+                    <h2 class="text-[3.9rem] font-[700] leading-[50px] my-[20px]">Good designs come with practice. Great designs come from the soul.</h2>
+                    <div class="post flex gap-8">
+                        <div class="icon">
+                            <i class="fa-solid fa-rocket"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Product Design and Prototyping</h3>
+                            <p>Purus id semper blandit interdum mi. Class mollis rhoncus metus netus si eget ultricies curae tortor rutrum.</p>
+                        </div>
+                    </div>
+                    <div class="post flex gap-8">
+                        <div class="icon">
+                            <i class="fa-solid fa-file-video"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Animation and Motion Graphics</h3>
+                            <p>Purus id semper blandit interdum mi. Class mollis rhoncus metus netus si eget ultricies curae tortor rutrum.</p>
+                        </div>
+                    </div>
+                    <div class="post flex gap-8">
+                        <div class="icon">
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Web Design & Development</h3>
+                            <p>Purus id semper blandit interdum mi. Class mollis rhoncus metus netus si eget ultricies curae tortor rutrum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+        <!-- About-area end -->
+
+        <!-- Contact-Area Starts -->
+        <section class="contact-area">
+          <div class="wraper contact-wraper">
+            <div class="contact-left">
+              <a href="#" class="btn-2">SAY HEY</a>
+              <div class="heading">
+                <h2>Contact, connect,</h2>
+                <h3>and indulge!</h3>
+              </div>
+              <hr>
+              <div class="contact">
+                <div class="contact-flexbox">
+                  <i class="fa-regular fa-envelope"></i>
+                  <div class="email">
+                    <h4>Email us</h4>
+                    <h5>info@mocha.com</h5>
+                  </div>
+                </div>
+                <div class="contact-flexbox">
+                  <i class="fa-solid fa-phone"></i>
+                  <div class="phone">
+                    <h4>Phone us</h4>
+                    <h5>9087 7890</h5>
+                  </div>
+                </div>
+                <div class="contact-flexbox">
+                <i class="fa-solid fa-location-dot"></i>
+                <div class="find-us">
+                  <h4>Find us</h4>
+                  <h5>123 Name Street, Kolma, 56789, Stateville</h5>
+                </div>
+              </div>
+              </div>
+              <hr>
+              <div class="icon">
+               <a href="#"> <i class="fa-brands fa-square-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+              <a href="#">  <i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-solid fa-xmark"></i></a>
+              </div>
+            </div>
+            <div class="contact-right">
+              <form action="https://formspree.io/f/xjkbrwzq"
+              method="POST">
+                <label for="">First Name*</label>
+                <input type="text" name="First Name">
+                <label for="">Last Name*</label>
+                <input type="text" name="Last Name">
+                <label for="">Email*</label>
+                <input type="email" name="email">
+                <label for="">Message*</label>
+                <textarea name="massage" id=""></textarea>
+                <input type="submit">
+              </form>
+            </div>
+          </div>
+        </section>
+        <!-- Contact-Area Ends -->
+
+         <!-- Footer-Area Starts -->
+     <footer class="footer-area">
+        <div class="wraper footer-container">
+          <div class="footer-top">
+            <div class="top-left">
+              <h3>We're always here. Say hey! 😊</h3>
+            </div>
+              <div class="top-right">
+                <a href="#" class="btn-primary">Contact us</a>
+              </div>
+          </div>
+          <hr>
+          <div class="footer-middle">
+            <div class="middle-left">
+              <div class="logo-heading">
+                <div class="logo">
+                  <img src="https://theme.creativemox.com/pixeluxe/wp-content/uploads/sites/18/2024/02/Logo_pixeluxe.png" alt="Logo">
+                </div>
+              </div>
+              <div class="menu-utilities">
+                <div class="footer-menu">
+                  <h6>Menu</h6>
+                  <a href="#">Home</a>
+                  <a href="#">About</a>
+                  <a href="#">Menu</a>
+                  <a href="#">Catering</a>
+                  <a href="#">Contact</a>
+                </div>
+                <div class="utilities">
+                  <h6>Utilities</h6>
+                  <a href="#">Style guide</a>
+                  <a href="#">Privacy Policy</a>
+                  <a href="#">Update Log</a>
+                  <a href="#">Feedback</a>
+                </div>
+              </div>
+            </div>
+            <div class="middle-right">
+              <h4>Subscribe</h4>
+              <h5>Join our newsletter to stay up to date on features and releases.</h5>
+              <div class="input-btn">
+                <div class="input">
+                  <input type="email" placeholder="name@email.com">
+                </div>
+                  <a href="#" class="btn">Subscribe</a>
+              </div>
+              <p>By subscribing you agree to with our <a href="#">Privacy Policy</a> and provide consent to receive updates from our company.</p>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <div class="bottom-left">
+              <h6>© 2024 <a href="#">Mocha</a>. All rights reserved.</h6>
+              <h5>|</h5>
+              <h6>Powered by <a href="#">Rakib</a></h6>
+              <h5>|</h5>
+              <h6>Designed and developed by <a href="#">Vilu Creative</a></h6>
+            </div>
+            <div class="bottom-right">
+              <div class="icon">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+     <!-- Footer-Area Ends -->
+    </main>
+
+    <script>
+        const toogleMenu = document.getElementById("toogle-menu");
+        const mobileMenu = document.getElementById("mobile-menu");
+        const crossIcon = document.getElementById("cross-icon");
+
+        toogleMenu.addEventListener("click",()=>{
+            mobileMenu.style.right="0";
+        })
+        
+        crossIcon.addEventListener("click",()=>{
+            mobileMenu.style.right="-100%";
+        })
+     </script>
+</body>
+</html>
