@@ -477,6 +477,8 @@ margin-bottom: 80px;
 }
 .icon{
     font-size: 1.8rem;
+    display: flex;
+    gap: 25px;
 }
 .fa-facebook-f{
     color: var(--primary-color);;
