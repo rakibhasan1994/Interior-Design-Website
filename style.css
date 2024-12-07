@@ -84,7 +84,7 @@ p{
     gap: 50px;
     position: fixed;
     width: 330px;
-    height: 100%;
+    height: auto;
     top:0;
     right: -100%;
     padding:30px 30px;
@@ -98,6 +98,10 @@ p{
 
 .mobile-menu a{
     font-size: 25px;
+}
+
+.mobile-menu h3{
+    font-size: 15px;
 }
 
 #cross-icon{
@@ -269,10 +273,11 @@ p{
     border-radius: 100%;
     font-size: 25px;
 }
-.contact-left .icon{
+.contact-left .icons{
     border: 1px solid var(--primary-color);
     border-radius: 100px;
     padding: 20px 0;
+    display: flex;
     justify-content: center;
     gap: 50px;
     font-size: 20px;
@@ -475,7 +480,7 @@ margin-bottom: 80px;
 .bottom-right{
     margin-top: 70px;
 }
-.icon{
+.footer-bottom .icon{
     font-size: 1.8rem;
     display: flex;
     gap: 25px;
